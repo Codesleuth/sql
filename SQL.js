@@ -133,5 +133,4 @@ function SQL (strings, ...values) {
 SQL.glue = SqlStatement.prototype.glue
 
 module.exports = SQL
-module.exports.SQL = SQL
 module.exports.default = SQL
